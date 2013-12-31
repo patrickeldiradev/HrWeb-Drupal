@@ -265,7 +265,8 @@ div#block-block-6 .block-inner.clearfix{
 }
 
 .quicktabs-tabs.quicktabs-style-basic{
-  width: 517px;
+  border-bottom: 1px solid #aaa;
+  width: 817px;
 }
 #block-aggregator-feed-2 a {
 	color: #ffffff; 
