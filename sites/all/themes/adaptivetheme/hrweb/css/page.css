@@ -1,0 +1,74 @@
+/**********************************************************
+ * Font Theme Settings
+ **********************************************************/
+/* font size */
+.font-size-10 {
+  font-size: 62.50%;
+}
+.font-size-11 {
+  font-size: 68.75%;
+}
+.font-size-12 {
+  font-size: 75%;
+}
+.font-size-13 {
+  font-size: 80.00%;
+}
+.font-size-14 {
+  font-size: 87.50%;
+}
+.font-size-15 {
+  font-size: 93.75%;
+}
+.font-size-16 {
+  font-size: 100%;
+}
+.font-size-17 {
+  font-size: 106.25%;
+}
+.font-size-18 {
+  font-size: 112.50%;
+}
+.font-size-19 {
+  font-size: 118.75%;
+}
+.font-size-20 {
+  font-size: 125%;
+}
+.font-size-21 {
+  font-size: 131.25%;
+}
+.font-size-22 {
+  font-size: 137.50%;
+}
+.font-size-23 {
+  font-size: 143.75%;
+}
+.font-size-24 {
+  font-size: 150%;
+}
+/* font family */
+.font-family-sans-serif-sm,
+.font-family-sans-serif-sm .form-text {
+  font-family: Arial, Helvetica, "Nimbus Sans L", FreeSans, sans-serif;
+}
+.font-family-sans-serif-lg,
+.font-family-sans-serif-lg .form-text {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.font-family-serif-sm,
+.font-family-serif-sm .form-text {
+  font-family: Garamond, Perpetua, "Nimbus Roman No9 L", "Times New Roman", serif;
+}
+.font-family-serif-lg,
+.font-family-serif-lg .form-text {
+  font-family: Baskerville, Georgia, Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
+}
+.font-family-myriad,
+.font-family-myriad .form-text {
+  font-family: "Myriad Pro", Myriad, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.font-family-lucida,
+.font-family-lucida .form-text {
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, Geneva, sans-serif;
+}

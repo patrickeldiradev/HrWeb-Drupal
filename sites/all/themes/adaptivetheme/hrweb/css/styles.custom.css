@@ -1,0 +1,332 @@
+/* Catalina's awesome custom CSS styles for HRWeb */
+
+
+/* custom background */
+h1,
+h2,
+h3,
+h4 {
+  font-family: Tahoma, Geneva, sans-serif
+}
+
+p {
+  font-size: 17px;
+	
+}
+
+/* gradient underneath the NYS logo background - this scrolls with the page */
+html {
+background: rgb(252,255,244); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%, rgba(223,229,215,1) 58%, rgba(179,190,173,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(252,255,244,1)), color-stop(58%,rgba(223,229,215,1)), color-stop(100%,rgba(179,190,173,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 58%,rgba(179,190,173,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 58%,rgba(179,190,173,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 58%,rgba(179,190,173,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 58%,rgba(179,190,173,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+}
+
+
+body {
+background-image: url("/sites/all/themes/adaptivetheme/hrweb/css/images/hrweb_background.png");
+background-repeat:repeat-x y;
+background-attachment:fixed;
+}
+
+
+/*
+ * Site slogan (h2) - Human Resource Management: Gilda G. Hernandez, Director
+ */
+#site-slogan {
+	text-shadow: 1px 1px #ffffff;
+	position: relative;
+	bottom: 10px;
+	margin: 0;
+	text-align: center !important;
+}
+
+
+/* Catalina's custom sytle changes for this AT subtheme */
+.region-header
+{
+	position: static;
+	left: 200px;
+}
+
+
+.node-readmore a {
+ 	display: none;
+}
+
+/* Home Page block buttons */
+.hr_homepagebuttons
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ea8c9), color-stop(1, #1f4351) );
+	background:-moz-linear-gradient( center top, #4ea8c9 5%, #1f4351 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea8c9', endColorstr='#1f4351');
+	background-color:#4ea8c9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0px;
+	border:1px solid #1f4351;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Francois One;
+	font-size:16px;
+	font-weight:normal;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #1f4351;
+}
+.hr_homepagebuttons:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1f4351), color-stop(1, #4ea8c9) );
+	background:-moz-linear-gradient( center top, #1f4351 5%, #4ea8c9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f4351', endColorstr='#4ea8c9');
+	background-color:#1f4351;
+}
+.hr_homepagebuttons:active {
+	position:relative;
+	top:1px;
+}
+
+.hr_superadvisory
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ea8c9), color-stop(1, #1f4351) );
+	background:-moz-linear-gradient( center top, #4ea8c9 5%, #1f4351 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea8c9', endColorstr='#1f4351');
+	background-color:#4ea8c9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0px;
+	border:1px solid #1f4351;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Francois One;
+	font-size:13.5px;
+	font-weight:normal;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:250px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #1f4351;
+}
+.hr_superadvisory:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1f4351), color-stop(1, #4ea8c9) );
+	background:-moz-linear-gradient( center top, #1f4351 5%, #4ea8c9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f4351', endColorstr='#4ea8c9');
+	background-color:#1f4351;
+}
+.hr_superadvisory:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Tertiary Region - bottom of page above footer */
+div.region.region-tertiary-content
+{
+	/*background-color: #1f4250;*/
+	-moz-box-shadow:inset 0px 1px 0px 0px #1f4250;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #1f4250;
+	box-shadow:inset 0px 1px 0px 0px #1f4250;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.0009, #4ea8c9), color-stop(1, #1f4250) );
+	background:-moz-linear-gradient( center top, #4ea8c9 2%, #1f4250 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea8c9', endColorstr='#1f4250');
+	background-color:#1f4250;
+	padding-top: 10px; 
+}
+
+div.rtecenter
+{color: white; text-shadow: black 0.1em 0.1em 0.2em}
+
+#footer
+{
+	background: #1f4351;
+}
+
+
+.nys-home
+{
+	font-size: 18px;
+}
+
+
+ul.menu.clearfix
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+/* ---------- NYS Map CSS testing  ----------- */
+
+.homebuttons{
+	background:Transparent;
+}
+
+
+.homebuttons a {
+	background-image:url('/sites/all/themes/adaptivetheme/hrweb/css/images/medinamap.png');
+	background-repeat:no-repeat;
+	margin-top: 0px;
+    padding-top: 0px;
+	display: block;
+	height: 428px;
+	width: 569px;
+}
+
+.homebuttons  a.nymap1 {background-position:0px 0px;}
+.homebuttons  a:hover.nymap1 {background-position:0px -428px;}
+
+.homebuttons  a.nymap1 {background-position:0px 0px;}
+.homebuttons  a:hover.nymap2 {background-position:0px -856px;}
+
+.homebuttons  a.nymap1 {background-position:0px 0px;}
+.homebuttons  a:hover.nymap3 {background-position:0px -1284px;}
+
+
+
+/* home page image */
+
+div#block-block-4 .block-inner.clearfix{
+  width: 1140px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+div#block-block-6 .block-inner.clearfix{
+  width: 1140px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* QuickTabs Home Page */
+#quicktabs-container-home{
+	width: 800px;
+}
+
+#block-quicktabs-home{
+  left: 0px; 
+  width: 800px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.quicktabs_main.quicktabs-style-basic {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-top: none;
+  padding: 10px;
+  width: 500px;
+  clear: both;
+}
+
+.quicktabs-tabs.quicktabs-style-basic{
+  width: 517px;
+}
+#block-aggregator-feed-2 a {
+	color: #ffffff; 
+	text-shadow:1px 2px 0px #1f4351;
+}
+#block-aggregator-feed-2{
+	  -moz-border-radius: 15px;
+  border-radius: 15px;
+-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ea8c9), color-stop(1, #1f4351) );
+	background:-moz-linear-gradient( center top, #4ea8c9 5%, #1f4351 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea8c9', endColorstr='#1f4351');
+	background-color:#4ea8c9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	border:1px solid #1f4351;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Francois One;
+	font-size:13.5px;
+	font-weight:normal;
+	font-style:normal;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#block-aggregator-feed-1  a {
+	color: #ffffff; 
+	text-shadow:1px 2px 0px #1f4351;
+}
+#block-aggregator-feed-1{
+		  -moz-border-radius: 15px;
+  border-radius: 15px;
+-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ea8c9), color-stop(1, #1f4351) );
+	background:-moz-linear-gradient( center top, #4ea8c9 5%, #1f4351 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea8c9', endColorstr='#1f4351');
+	background-color:#4ea8c9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	border:1px solid #1f4351;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Francois One;
+	font-size:13.5px;
+	font-weight:normal;
+	font-style:normal;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

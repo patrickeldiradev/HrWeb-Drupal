@@ -1,0 +1,5 @@
+  <?php if ($page['footer']): ?>
+    <footer<?php print $footer_attributes; ?>>
+      <?php print render($page['footer']); ?>
+    </footer>
+  <?php endif; ?>

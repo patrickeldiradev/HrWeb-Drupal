@@ -1,0 +1,17 @@
+/* custom CSS for Supervisory Toolkit page */
+
+/* hides the site logo */
+div#logo {
+  display:none;
+}
+
+
+#site-slogan {
+  display:none;
+}
+
+div#block-block-5
+{
+	height: 150px;
+	margin-bottom: 0px;
+}

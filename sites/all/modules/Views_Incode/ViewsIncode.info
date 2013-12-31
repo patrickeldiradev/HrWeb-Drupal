@@ -1,0 +1,4 @@
+
+name = "ViewsIncode"
+description = "A module to shift database content (Views) to code"
+core = 7.x
