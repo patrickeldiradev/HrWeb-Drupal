@@ -224,6 +224,17 @@ div#block-block-4 .block-inner.clearfix{
   width: 1140px;
   margin-right: 0px;
   margin-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+#block-block-4 .block-content.content{
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-top-style:solid;
+  border-top-width: 2px;
+  height: 275px;
+
 }
 
 div#block-block-6 .block-inner.clearfix{
